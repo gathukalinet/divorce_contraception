@@ -8,7 +8,7 @@ st.set_page_config(layout="wide")
 # Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv('/Users/clementngatia/Downloads/Divorce&Contraception/NSFG_2022_2023_FemRespPUFData (Autosaved).xlsx')
+    return pd.read_csv('/Users/clementngatia/Downloads/Divorce&Contraception/NSFG_2022_2023_FemRespPUFData.csv', encoding = "latin-1")
 
 div_cont = load_data()
 
