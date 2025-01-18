@@ -14,4 +14,6 @@ div_cont = load_data()
 
 # Setting the title for the page
 st.title("Modern Contraception and Divorce")
-st.markdown()
+st.markdown(
+    ''
+)
